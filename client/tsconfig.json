@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2015",
+        "noImplicitAny": true,
+        "outDir": "../public/",
+        "allowJs": true,
+        "sourceMap": true
+    },
+    "include": [
+        "**/*"
+    ]
+}
+
