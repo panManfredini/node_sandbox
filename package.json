@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node server/server.ts",
-    "node_start": "node bin/server.js",
+    "node_start": "node bin_server/server.js",
     "debug": "nodemon --watch 'server/**/*' -e ts,tsx --exec 'ts-node -P ./server/tsconfig.json' ./server/server.ts",
     "build_client": "webpack",
     "build_server": "tsc -p server/tsconfig.json" 
