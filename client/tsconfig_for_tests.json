@@ -3,7 +3,7 @@
         "module": "es6",
         "target": "es2018",
         "noImplicitAny": true,
-        "outDir": "../public/",
+        "outDir": "../test_client/",
         "allowJs": true,
         "sourceMap": true
     },

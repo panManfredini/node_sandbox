@@ -1,5 +1,11 @@
 //import _ from 'lodash';
 
+
+export function hello():string{
+  return 'hello';
+}
+
+
 function component( greetings : string) {
   let element = document.createElement('div');
 
@@ -35,7 +41,7 @@ async function asyncCall() {
 
  asyncCall();
 
-document.body.appendChild(component('fuck your majesty...'));
+// document.body.appendChild(component('fuck your majesty...'));
 
 
 
