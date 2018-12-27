@@ -1,14 +1,16 @@
 {
     "compilerOptions": {
         "module": "es6",
+	"moduleResolution":"Node",
         "target": "es2018",
         "noImplicitAny": true,
         "outDir": "../public/",
-        "allowJs": true,
-        "sourceMap": true
+        "allowJs": false,
+        "sourceMap": false 
     },
     "include": [
-        "**/*"
+        "**/*", 
+        "../../node_modules/*"
     ]
 }
 

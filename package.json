@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/panManfredini/node_sandbox#readme",
   "dependencies": {
+    "brick-element": "^0.1.1",
     "koa": "^2.5.3",
     "koa-logger": "^3.2.0",
     "koa-router": "^7.4.0",

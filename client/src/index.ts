@@ -1,5 +1,6 @@
 //import _ from 'lodash';
 
+import {brick} from 'brick-element';
 
 export function hello():string{
   return 'hello';
@@ -10,6 +11,9 @@ function component( greetings : string) {
   let element = document.createElement('div');
 
   //element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  let mix = brick`<h1> ciao </h1>`;
+  customElements.define('test-element',class extends mix(HTMLElement){});
+
   element.innerHTML = 'Hello World! <br> ' + greetings;
 
   return element;
